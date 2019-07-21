@@ -1,6 +1,8 @@
 const Prism = require('./prism')
 const Mousetrap = require('mousetrap')
+const Mousetrap = require('mousetrap')
 
+window.Vue = require('vue')
 window.Vue = require('vue')
 
 Vue.component('responsive-code-sample', require('./components/ResponsiveCodeSample.vue').default)
